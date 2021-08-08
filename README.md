@@ -19,4 +19,10 @@ The component should show mock API results
 
 ## link
 
+https://codesandbox.io/s/inspiring-moser-sf18r
+
+# UML
+
+![lab26](./lab26.png)
+
 
