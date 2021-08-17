@@ -93,3 +93,33 @@ Renders 2 Child Components:
 # UML
 
 ![UML27](UML27.png)
+
+
+# LAB 28 - Component Lifecycle / useEffect() Hook
+
+### RESTy Phase 3: Connect RESTy with APIs, running live requests
+
+### Phase 3 Requirements
+
+In phase 3, we will be connecting RESTy to live APIs, fetching and displaying remote data. Our primary focus will be to service GET requests.
+
+**enter URL to an API and issue a GET request so that I can retrieve it’s data, and see the results returned from an API request in my browser in a readable format**
+
+## Application Flow:
+
+- User enters an API URL
+- Chooses a REST Method
+- Clicks the “Go” button
+- Application fetches data from the URL given, with the method specified
+- Displays the response headers and results separately
+- Both headers and results should be “pretty printed” JSON
+
+## Links:
+
+- git app Actions:
+
+- sandbox 28:
+
+- netlify:
+
+![UML28](./UML28.png)
