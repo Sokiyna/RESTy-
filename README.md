@@ -123,3 +123,25 @@ In phase 3, we will be connecting RESTy to live APIs, fetching and displaying re
 - netlify:
 
 ![UML28](./UML28.png)
+
+
+# LAB 29- Advanced State with Reducers
+
+**RESTy Phase 4: Track History**
+
+### Phase 4 Requirements
+
+tracking every API call and storing it in history
+
+**Application Flow:**
+
+- User enters an API URL
+- Chooses a REST Method
+- Clicks the “Go” button
+- Application fetches data from the URL given, with the method specified
+- Application stores the API request and returned data into state
+- Updates the list of previous API calls
+- Application Displays the response headers and results separately
+- Both headers and results should be “pretty printed” JSON
+
+
