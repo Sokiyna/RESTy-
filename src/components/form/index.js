@@ -38,12 +38,15 @@ function Form(props) {
           <input name='url' type='text' onChange={handlerUrl} />
           <button type="submit" data-testid="formTest" >GO!</button>
         </label>
+
+        
         <label className="methods">
-          <span id="get"  onClick={handlemethod}>  GET  </span>
-          <span id="post" onClick={handleShowBox}>  POST  </span>
-          <span id="put" onClick={handleShowBox}>  PUT  </span>
-          <span id="delete" onClick={handlemethod}>  DELETE  </span>
+        <button className='btn' type='button' id="get"    onClick={handlemethod}>GET   </button>
+        <button className='btn' type='button' id="post"   onClick={handleShowBox}>POST </button>
+        <button className='btn' type='button' id="put"    onClick={handleShowBox}>PUT  </button>
+        <button className='btn' type='button' id="delete" onClick={handlemethod}>DELETE</button>
         </label>
+        
         {showBox && <textarea  rows='10' cols='40' onChange={handelBodyText} />}
       </form>
     </>
