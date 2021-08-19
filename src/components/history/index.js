@@ -1,5 +1,4 @@
 import React from 'react'
-import Loading from '../results/loading';
 import './history.scss';
 
 
